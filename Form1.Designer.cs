@@ -34,22 +34,22 @@
             txtLeftDir = new TextBox();
             panel3 = new Panel();
             lvwLeftDir = new ListView();
+            name_left = new ColumnHeader();
+            size_left = new ColumnHeader();
+            date_left = new ColumnHeader();
             panel1 = new Panel();
             btnCopyFromLeft = new Button();
             lblAppName = new Label();
             panel6 = new Panel();
-            lvwRightDir = new ListView();
+            name_right = new ColumnHeader();
+            size_right = new ColumnHeader();
+            date_right = new ColumnHeader();
             panel5 = new Panel();
             btnRightDir = new Button();
             txtRightDir = new TextBox();
             panel4 = new Panel();
             btnCopyFromRight = new Button();
-            name_left = new ColumnHeader();
-            size_left = new ColumnHeader();
-            date_left = new ColumnHeader();
-            name_right = new ColumnHeader();
-            size_right = new ColumnHeader();
-            date_right = new ColumnHeader();
+            lvwRightDir = new ListView();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -137,6 +137,21 @@
             lvwLeftDir.View = View.Details;
             lvwLeftDir.SelectedIndexChanged += lvwLeftDir_SelectedIndexChanged;
             // 
+            // name_left
+            // 
+            name_left.Text = "이름";
+            name_left.Width = 200;
+            // 
+            // size_left
+            // 
+            size_left.Text = "크기";
+            size_left.Width = 100;
+            // 
+            // date_left
+            // 
+            date_left.Text = "수정일";
+            date_left.Width = 160;
+            // 
             // panel1
             // 
             panel1.Controls.Add(btnCopyFromLeft);
@@ -181,6 +196,7 @@
             // lvwRightDir
             // 
             lvwRightDir.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lvwRightDir.AutoArrange = false;
             lvwRightDir.Columns.AddRange(new ColumnHeader[] { name_right, size_right, date_right });
             lvwRightDir.FullRowSelect = true;
             lvwRightDir.GridLines = true;
@@ -190,6 +206,21 @@
             lvwRightDir.TabIndex = 1;
             lvwRightDir.UseCompatibleStateImageBehavior = false;
             lvwRightDir.View = View.Details;
+            // 
+            // name_right
+            // 
+            name_right.Text = "이름";
+            name_right.Width = 200;
+            // 
+            // size_right
+            // 
+            size_right.Text = "크기";
+            size_right.Width = 100;
+            // 
+            // date_right
+            // 
+            date_right.Text = "수정일";
+            date_right.Width = 160;
             // 
             // panel5
             // 
@@ -238,36 +269,6 @@
             btnCopyFromRight.TabIndex = 2;
             btnCopyFromRight.Text = "<<<";
             btnCopyFromRight.UseVisualStyleBackColor = true;
-            // 
-            // name_left
-            // 
-            name_left.Text = "이름";
-            name_left.Width = 200;
-            // 
-            // size_left
-            // 
-            size_left.Text = "크기";
-            size_left.Width = 100;
-            // 
-            // date_left
-            // 
-            date_left.Text = "수정일";
-            date_left.Width = 160;
-            // 
-            // name_right
-            // 
-            name_right.Text = "이름";
-            name_right.Width = 200;
-            // 
-            // size_right
-            // 
-            size_right.Text = "크기";
-            size_right.Width = 100;
-            // 
-            // date_right
-            // 
-            date_right.Text = "수정일";
-            date_right.Width = 160;
             // 
             // Form1
             // 
