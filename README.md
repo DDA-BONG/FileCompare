@@ -31,3 +31,5 @@
   - openFileDialog와 FolderBrowserDialog를 이용하여 파일과 폴더 선택 기능 구현
   - ListView를 이용하여 파일과 폴더의 정보를 표시하고 비교
   - 색상을 이용하여 파일과 폴더의 차이점을 시각적으로 표시
+
+## 실행 화면 (과제3)

@@ -238,6 +238,7 @@ namespace FileCompare
 
         private void lvwLeftDir_SelectedIndexChanged(object sender, EventArgs e)
         {
+
         }
     }
 }
